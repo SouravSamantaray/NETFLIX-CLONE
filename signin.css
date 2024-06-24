@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    background-color: black;
+}
+.bckgrnd {
+    background: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url(ASSETS/IMAGES/bg.jpg);
+    height: 80vh;
+    width: 100%;
+}
+.logo img {
+    width: 12%;
+    /* height: auto; */
+    margin-left: 150px;
+    margin-top: 15px;
+}
+.main {
+    height: 480px;
+    width: 440px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.527);
+    /* margin-top: 110px; */
+}
+.main form {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.main h1 {
+    color: white;
+    margin-left: 100px;
+    /* margin-top: 8px; */
+}
+.main input {
+    width: 60%;
+    height: 60px;
+    border: 0.02rem solid gray;
+    border-radius: 3px;
+    background-color: rgba(16, 16, 16, 0.671);
+}
+input::placeholder {
+    font-size: 18px;
+    margin-left: 15px;
+    padding: 14px;
+    color: white;
+}
+input[type=submit] {
+    font-size: 18px;
+    color: white;
+    background-color: rgb(229, 9, 20);
+    border-radius: 3px;
+    height: 38px;
+}
+.frgt {
+    text-decoration: none;
+    margin-top: 10px;
+}
+.frgt span {
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+}
+.checkbox-container {
+    display: flex;
+    margin-top: -10px;
+    color: white;
+    margin-left: 105px;
+}
+.line1{
+    margin-left: -33px;
+    color: rgba(255,255,255,0.7);
+    text-align: center;
+    font-size: 16px;
+}
+.line2{
+    margin-left: 510px;
+    color: rgba(255,255,255,0.7);
+    font-size: 13px;
+    margin-top: 20px;
+}
+.line1 a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+.line2 a{
+    text-decoration: none;
+}
+
+footer{
+    color: white;
+    margin: auto;
+    max-width: 60vw;
+    padding: 34px;
+  }
+  footer .questions{
+    padding: 34px 0;
+  }
+  .footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+  }
+  .footer a{
+    font-size: 14px;
+    color: white;
+  }
+  .footer-item{
+    display: flex;
+    flex-direction: column;
+   margin: auto;
+   gap: 23px;
+  }
